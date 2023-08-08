@@ -1,0 +1,12 @@
+server:
+  port: 9000
+  address: localhost
+
+spring:
+  application:
+    name: ticket-service
+  data:
+    mongodb:
+      database: ${spring.application.name}
+      host: localhost
+      port: 27017
