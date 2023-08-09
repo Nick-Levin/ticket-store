@@ -8,7 +8,7 @@ import java.util.Date;
 
 @Data
 @Document("tickets")
-public class Ticket {
+public class Ticket extends AuditingBaseDocument {
 
     private String departurePlace;
     private String destinationPlace;
