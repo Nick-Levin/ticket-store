@@ -10,3 +10,6 @@ spring:
       database: ${spring.application.name}
       host: localhost
       port: 27017
+logging:
+  level:
+    root: info
